@@ -1,7 +1,3 @@
-console.log(process.argv);
-
-const words = "Hello"
-
 const args = process.argv.slice(2);
 
 if (args.length === 0) {
@@ -12,3 +8,4 @@ if (args.length === 0) {
 } else {
     console.log("Arguments found")
 }
+
