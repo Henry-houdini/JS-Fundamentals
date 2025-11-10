@@ -4,7 +4,7 @@ const number = parseInt(args[0]);
 if (isNaN(number)) {
     console.log("Missing number of occurrences");
 } else {
-    for (let i = 0; i < number; i++) {
+    for (let i = 1; i < number; i++) {
         console.log(i)
     }
 }
