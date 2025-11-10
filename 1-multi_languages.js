@@ -1,5 +1,5 @@
 const message = `
-C is fun 
+C is fun
 Python is cool
 JavaScript is amazing
 `
